@@ -1,0 +1,92 @@
+Imposter Footballer Game Bot
+
+Overview
+
+This is a Discord bot that facilitates a fun imposter game based on famous footballers. Players join a voice channel, receive a secret footballer assignment, and try to identify the imposter among them.
+
+Features
+
+Assigns random footballers to players in a voice channel
+
+Selects one imposter who gets a different footballer
+
+Sends private messages to each player with their assigned footballer
+
+Sends random emojis for added engagement
+
+Facilitates voting through reactions
+
+Determines the most voted player and announces the results
+
+Requirements
+
+Python 3.8+
+
+discord.py library
+
+Installation
+
+Clone the repository:
+
+git clone https://github.com/your-repo/imposter-footballer-bot.git
+
+Navigate to the directory:
+
+cd imposter-footballer-bot
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+Set up a bot token:
+
+Go to Discord Developer Portal
+
+Create a new application and get the bot token
+
+Replace bot.run('YOUR_BOT_TOKEN') in the script with your token
+
+Usage
+
+Run the bot:
+
+python bot.py
+
+Join a voice channel and type !play in a text channel.
+
+Each player will receive a private message with their assigned footballer.
+
+Players discuss and vote on who they think the imposter is by reacting with the first letter of the suspected player’s name.
+
+The bot counts the votes and announces the suspected imposter.
+
+Commands
+
+Command
+
+Description
+
+!play
+
+Starts the game in the voice channel
+
+Notes
+
+Players must be in a voice channel to play.
+
+The bot requires permission to send direct messages.
+
+The game requires at least 2 players.
+
+Future Improvements
+
+Add more game modes and variations
+
+Implement a better user interface with embeds
+
+Improve vote counting and tie-breaking
+
+License
+
+This project is licensed under the MIT License.
+
