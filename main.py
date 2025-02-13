@@ -86,5 +86,5 @@ def get_member_name_from_emoji(guild, emoji):
 
 
 
-bot.run('discod code')
+bot.run('YOUR_BOT_TOKEN')
 
