@@ -36,7 +36,7 @@ This is a Discord bot that facilitates a fun imposter game based on famous footb
 ## Usage
 1. **Run the bot:**
    ```bash
-   python bot.py
+   python main.py
    ```
 2. **Join a voice channel and type `!play` in a text channel.**
 3. **Each player will receive a private message** with their assigned footballer.
