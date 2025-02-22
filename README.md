@@ -18,11 +18,11 @@ This is a Discord bot that facilitates a fun imposter game based on famous footb
 ## Installation
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-repo/imposter-footballer-bot.git
+   git clone https://github.com/tahsincihan/Imposter-discord-bot.git
    ```
 2. **Navigate to the directory:**
    ```bash
-   cd imposter-footballer-bot
+   cd Imposter-discord-bot
    ```
 3. **Install dependencies:**
    ```bash
