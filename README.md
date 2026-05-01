@@ -14,6 +14,7 @@ This is a Discord bot that facilitates a fun imposter game based on famous footb
 ## Requirements
 - **Python 3.8+**
 - `discord.py` library
+- `python-dotenv` for loading `.env`
 
 ## Installation
 1. **Clone the repository:**
@@ -31,7 +32,11 @@ This is a Discord bot that facilitates a fun imposter game based on famous footb
 4. **Set up a bot token:**
    - Go to [Discord Developer Portal](https://discord.com/developers/applications)
    - Create a new application and get the bot token
-   - Replace `bot.run('YOUR_BOT_TOKEN')` in the script with your token
+   - Create a `.env` file with:
+     ```bash
+     DISCORD_BOT=your_token_here
+     ```
+   - Keep `.env` private (do not commit it)
 
 ## Usage
 1. **Run the bot:**
@@ -52,6 +57,7 @@ This is a Discord bot that facilitates a fun imposter game based on famous footb
 - **Players must be in a voice channel** to play.
 - The bot requires **permission to send direct messages**.
 - The game requires **at least 2 players**.
+- Enable the **Message Content Intent** in the Developer Portal for the bot.
 
 ## Future Improvements
 - **Add more game modes and variations**
