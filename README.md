@@ -49,8 +49,6 @@ Create a `.env` file in the project root:
 DISCORD_BOT=your_token_here
 ```
 
-> Never commit your `.env` file. It is already listed in `.gitignore`.
-
 ### 5. Run the bot
 
 ```bash
