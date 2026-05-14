@@ -60,7 +60,7 @@ python main.py
 ## How to Play
 
 1. **Join a voice channel** with at least one other person (max 10 players)
-2. In any text channel, type `!play` (footballers) or `!general` (random words)
+2. In any text channel, type `!football` (famous footballers) or `!general` (random everyday words)
 3. Each player receives a **DM** with their secret word — except the imposter, who only gets a vague hint
 4. The bot announces who goes first and posts a **numbered voting list**
 5. Players take turns describing their word without saying it directly — the imposter tries to blend in
@@ -71,11 +71,11 @@ python main.py
 
 ## Commands
 
-| Command    | Description                                      |
-|------------|--------------------------------------------------|
-| `!play`    | Start a game using famous footballers as the word |
-| `!general` | Start a game using random everyday words          |
-| `!reveal`  | Count votes and reveal the imposter               |
+| Command      | Description                                       |
+|--------------|---------------------------------------------------|
+| `!football`  | Start a game using famous footballers as the word |
+| `!general`   | Start a game using random everyday words          |
+| `!reveal`    | Count votes and reveal the imposter               |
 
 ---
 
